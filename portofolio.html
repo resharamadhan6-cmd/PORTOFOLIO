@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="page minuman.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="logo">
+    <img src="images/logo minuman.png" alt="Logo">
+  </div>
+  <nav class="nav-menu">
+    <a href="portofolio.html">HOME</a>
+    <a href="index.html#work">WORK</a>
+    <a href="index.html#project">PROJECT</a>
+    <a href="about.html">ABOUT</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>PORTOFOLIO</h1>
+    <p>Creating visual stories through design and lens</p>
+    <a href="#work" class="hero-btn">View My Work →</a>
+  </div>
+</section>
+
+<section id="work" class="works">
+  <h2>Selected Works</h2>
+
+  <div class="filter">
+    <button class="active" data-filter="all">ALL</button>
+    <button data-filter="design">DESIGN</button>
+    <button data-filter="photo">PHOTOGRAPHY</button>
+  </div>
+
+  <div class="works-grid" id="worksGrid"></div>
+</section>
+
+<section id="project" class="slide-project">
+  <h2 class="project-title">PROJECT</h2>
+  <div class="project-slider" id="projectSlider">
+
+    <!-- Project Card Contoh -->
+    <a href="page minuman.html" class="project-card">
+      <img src="page minuman/produk kemasan.png.jpg" alt="Minuman Project">
+      <div class="project-overlay">
+        <h3>PRODUK</h3>
+      </div>
+    </a>
+
+    <a href="project-coklat.html" class="project-card">
+      <img src="images/coklat/cover.jpg" alt="Coklat Project">
+      <div class="project-overlay">
+        <h3>COKLAT</h3>
+      </div>
+    </a>
+
+    <!-- Tambah project lainnya sesuai kebutuhan -->
+
+  </div>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
